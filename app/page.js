@@ -7,6 +7,9 @@ import Footer from './components/Footer';
 export default function Home() {
   return (
     <div className="container">
+      <meta name="google-adsense-account" content="ca-pub-2629682720782125"></meta>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2629682720782125"
+     crossorigin="anonymous"></script>
       <header className="header">
         <div className="logo">
           <CheeseIcon />
@@ -21,9 +24,6 @@ export default function Home() {
         </div>
         
         <aside className="sidebar">
-          <AdPlaceholder type="ad-sidebar" text="Google Ad (Sidebar Top)" />
-          <AdPlaceholder type="ad-sidebar" text="Google Ad (Sidebar Middle)" />
-          <AdPlaceholder type="ad-sidebar" text="Google Ad (Sidebar Bottom)" />
         </aside>
       </div>
       
