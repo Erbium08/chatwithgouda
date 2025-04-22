@@ -1,5 +1,6 @@
 import './globals.css';
 import { ThemeProvider } from './ThemeProvider';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: 'Chat with Gouda',
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <ThemeProvider>
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
