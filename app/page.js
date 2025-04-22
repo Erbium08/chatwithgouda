@@ -1,6 +1,5 @@
 import ThemeToggle from './components/ThemeToggle';
 import ChatInterface from './components/ChatInterface';
-import AdPlaceholder from './components/AdPlaceholder';
 import CheeseIcon from './components/CheeseIcon';
 import Footer from './components/Footer';
 
