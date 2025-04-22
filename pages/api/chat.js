@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     const { message, model_name = 'gouda0.0.1', max_tokens = 100 } = req.body;
     
     // Call the Python backend with the updated endpoint and parameters
-    const backendResponse = await fetch('https://gouda-api.onrender.com/api/chat', {
+    const backendResponse = await fetch('https://gouda-api.onrender.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
