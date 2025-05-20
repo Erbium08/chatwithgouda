@@ -44,7 +44,8 @@ export default function ChatInterface() {
         },
         body: JSON.stringify({
           message: input,
-          // You can add context from previous messages if needed
+          model_name: 'gouda0.0.1',
+          max_tokens: 100,
           context: messages.slice(-5).map(m => ({ text: m.text, isUser: m.isUser }))
         }),
       });
