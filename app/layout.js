@@ -3,7 +3,7 @@ import { ThemeProvider } from './ThemeProvider';
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
-  title: 'Chat with Gouda',
+  title: 'GoudaAI',
   description: 'A minimalist AI chatbot powered by Gouda',
 };
 

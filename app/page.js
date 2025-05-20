@@ -12,7 +12,7 @@ export default function Home() {
       <header className="header">
         <div className="logo">
           <CheeseIcon />
-          <span>ChatWithGouda</span>
+          <span>GoudaAI</span>
         </div>
         <ThemeToggle />
       </header>
